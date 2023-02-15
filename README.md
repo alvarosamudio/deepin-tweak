@@ -28,6 +28,7 @@ Deepin Tweak is an advanced setting tool built on dtkdeclarative. Deepin Tweak o
 
 ```shell
 $ git clone https://github.com/linuxdeepin/deepin-tweak.git
+cd deepin-tweak
 cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr
 cmake --build build
 ```
